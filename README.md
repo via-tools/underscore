@@ -42,4 +42,4 @@ You can view \_.js to see every available method and their implementations.
 
 ## Feature Addition
 
-Got a fullsec scriptor you use frequently? chats.tell { to:"tools", "tools.lib request" }
+Got a fullsec scriptor or a handy function you use frequently? chats.tell { to:"tools", msg:"tools.lib request" }
