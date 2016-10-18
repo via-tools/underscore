@@ -24,7 +24,7 @@ function (ctx, a) {
     $ = _.$()          // #s.scripts.lib() shorthand
   ;
 
-  $.log(_.sec_name(_.get_level(ctx.this_script)));   \/\/ Directly call scripts.lib functions
+  $.log(_.sec_name(_.get_level(ctx.this_script)));   // Directly call scripts.lib functions
 
   return $.get_log();
 
