@@ -34,12 +34,12 @@ function (ctx, a) {
 ## How It Works
 
 "tools.underscore" hosts fullsec scriptors and common useful functions
-used throughout other tools scripts. It is meant to be used
-in addition to #s.scripts.lib to help minify your code and focus
-on your idea.
+used throughout other tools scripts. It is meant to help you reduce character 
+count and stay focused on your idea.
 
 You can view \_.js to see every available method and their implementations.
 
 ## Feature Addition
 
-Got a fullsec scriptor or a handy function you use frequently? chats.tell { to:"tools", msg:"tools.lib request" }
+Got a fullsec scriptor or a handy function you use frequently?
+chats.tell { to:"tools", msg:"tools.lib request" }
