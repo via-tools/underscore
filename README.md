@@ -8,7 +8,7 @@ function (ctx, args) { // msg:"Hello", color:"S", channel:"0000"
 
   let
     _ = #s.tools._(),                 // tools library
-    m = _.color(args.color, args.msg) // custom tools function
+    m = _.add_color(args.color, args.msg) // custom tools function
   ;
 
   return _.send(args.channel, m);     // #s.chats.send shorthand
